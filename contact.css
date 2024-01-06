@@ -1,0 +1,103 @@
+/* Your custom styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.stitchtools.com/assets/images/contact/contact-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 30px;
+  }
+  
+  .card-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-icons {
+    margin-top: 30px;
+  }
+  
+  .social-icons h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .social-icons ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .social-icons ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons ul li a {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .social-icons ul li a:hover {
+    color: #007bff;
+  }
+  

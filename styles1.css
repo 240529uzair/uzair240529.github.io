@@ -1,0 +1,92 @@
+/* Basic styles for skills section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #140856;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .skill-card {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .skill-bar {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .skill-level {
+    width: 70%; /* Change width based on skill level */
+    height: 100%;
+  }
+  
+  .html {
+    background-color: #f16529;/* Color for HTML */
+  }
+  
+  .js {
+    background-color: #f0db4f; /* Color for JavaScript */
+  }
+  
+  .css {
+    background-color: #2965f1; /* Color for CSS */
+  }
+  
+  .c {
+    background-color: #409011; /* Color for C Language */
+  }
+  /* Additional CSS for enhanced skills section */
+.python{
+    background-color: #610f0f;
+}
+/* Add transition for smoother animations */
+.skill-level {
+    transition: width 0.5s ease-in-out;
+  }
+  
+  /* Add hover effect to skill cards */
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add animation on hover for skill levels */
+  .skill-level:hover {
+    animation: increaseWidth 1s ease-in-out;
+  }
+  
+  /* Define keyframe animation */
+  @keyframes increaseWidth {
+    0% { width: 70%; }
+    100% { width: 100%; }
+  }
+  /* Additional CSS for new skills and background images */
+
+/* Background images for respective languages */
+.html-card { background-image: url('html-image.jpg'); }
+.js-card { background-image: url('download\ \(1\).png'); }
+.css-card { background-image: url('cs'); }
+.c-card { background-image: url(''); }
+.python-card { background-image: url('python-image.jpg'); }
+
+body{
+  background-image: url('3426526.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+  
